@@ -3,6 +3,8 @@ package com.sa.model;
 
 import lombok.*;
 
+import java.util.List;
+
 
 @Getter
 @Setter
@@ -16,4 +18,5 @@ public class Employee {
     private String firstName;
     private String lastName;
     private double Salary;
+    private List<Address> address;
 }
